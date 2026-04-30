@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "695708079946",
+    "project_id": "vtu-app-85514",
+    "storage_bucket": "vtu-app-85514.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695708079946:android:0eacaa7462ac393d5d53b3",
+        "android_client_info": {
+          "package_name": "com.yourcompany.vtu_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695708079946-s4knpr4ncn6jcib4qv7dguhr73tejrg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjYi2v2Dg7O0JgJZip_0XaG4GlzKLJBZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695708079946-s4knpr4ncn6jcib4qv7dguhr73tejrg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
