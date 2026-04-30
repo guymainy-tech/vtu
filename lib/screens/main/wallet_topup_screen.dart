@@ -7,7 +7,7 @@ import '../../bloc/wallet/wallet_bloc.dart';
 import '../../bloc/wallet/wallet_event.dart';
 import '../../bloc/wallet/wallet_state.dart';
 import '../../providers/auth_provider.dart';
-import '../../services/monnify_firebase_service.dart';
+import '../../services/monnify_http_service.dart';
 import '../../widgets/custom_button.dart';
 import '../../widgets/custom_text_field.dart';
 import '../../utils/logger.dart';
@@ -33,7 +33,7 @@ class _WalletTopupScreenState extends State<WalletTopupScreen> {
     'Monnify Virtual Account',
   ];
 
-  final MonnifyFirebaseService _monnifyService = MonnifyFirebaseService();
+  final MonnifyHttpService _monnifyService = MonnifyHttpService();
   Map<String, dynamic>? _virtualAccount;
 
   @override

@@ -9,7 +9,7 @@ import 'firebase_options.dart';
 import 'app/app.dart';
 import 'providers/auth_provider.dart';
 import 'services/firebase_service.dart';
-import 'services/monnify_firebase_service.dart';
+import 'services/monnify_http_service.dart';
 import 'bloc/vtu/vtu_bloc.dart';
 import 'bloc/wallet/wallet_bloc.dart';
 import 'utils/logger.dart';
@@ -25,8 +25,10 @@ void main() async {
 
     AppLogger.log('Firebase initialized successfully');
 
-    // ✅ Initialize Monnify Firebase Service
-    MonnifyFirebaseService().init();
+    // ✅ Initialize Monnify HTTP Service (Render backend)
+    MonnifyHttpService().init(
+      backendUrl: 'https://vtu-412l.onrender.com',
+    );
 
     // ✅ Setup Firebase service (singleton)
     FirebaseService().setup();
